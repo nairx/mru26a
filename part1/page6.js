@@ -9,5 +9,5 @@
 // add(4,5)
 
 "use strict"
-let a = 010
-console.log(a)
+// let a = 010
+// console.log(a)
