@@ -6,17 +6,18 @@ const products = [
 let cart = []
 //Display all products using forEach
 function displayProducts(){
-
+    products.forEach((product)=>console.log(product));
 }
 
 //Add product 2 to cart using spread operator with a
 //new key quanity and assign 1
 function addToCart(id){
-
+    p=products.filter((product)=>product.id==id);
+    cart=[...cart,p]
 }
 //display cart
 function displayCart(){
-
+    console.log(cart)
 }
 
 displayProducts()
