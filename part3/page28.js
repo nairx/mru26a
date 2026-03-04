@@ -23,7 +23,14 @@
 // const newArray = numbers.filter((number) => number > 21);
 // console.log(newArray)
 
-const numbers = [25, 21, 27, 20];
-const result = numbers.find((number) => number > 21);
-console.log(result)
+// const numbers = [25, 21, 27, 20];
+// const result = numbers.find((number) => number > 21);
+// console.log(result)
 
+// const numbers = [25, 21, 27, 20];
+// const result = numbers.reduce((sum,number) => sum + number,0);
+// console.log(result)
+
+const numbers = [25, 21, 27, 20];
+const newArray = [...numbers,99]
+console.log(newArray)
