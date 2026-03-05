@@ -44,6 +44,7 @@ function withdraw(id, amount) {
     if (customer.id === id) {
       if (customer.balance < amount) {
         console.log("Insufficient Funds");
+        return customer
       } else {
         return {
           ...customer,
@@ -72,6 +73,6 @@ deposit(1, 1500);
 checkBalance(1);
 deposit(1, 1000);
 checkBalance(1);
-withdraw(1,2000)
+withdraw(1,20000)
 checkBalance(1);
 showTransactions(1)
