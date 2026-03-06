@@ -7,10 +7,14 @@
   </head>
   <body>
     <h2>Login Form</h2>
+  
     <form action="/login" method="POST">
-      <p><input type="text" placeholder="Email" /></p>
-      <p><input type="password" placeholder="Password" /></p>
+      <p><input type="text" name="email" placeholder="Email" /></p>
+      <p><input type="password" name="password" placeholder="Password" /></p>
       <p><button>Login</button></p>
     </form>
+    <p>
+      New user <a href="/register">register</a> here!
+    </p>
   </body>
 </html>
