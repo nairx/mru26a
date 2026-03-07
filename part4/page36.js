@@ -23,6 +23,12 @@ db.products.insertMany([
   { name: "Product 3", price: 100 },
 ]);
 
+db.products.insertMany([
+  { name: "Product 4", price: 140 },
+  { name: "Product 5", price: 200 },
+  { name: "Product 6", price: 300 },
+]);
+
 //db.products.find() - all documents as array of objects
 //db.producst.findOne() - first document as object
 
